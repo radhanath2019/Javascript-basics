@@ -1,0 +1,15 @@
+(function(){
+    'use strict';
+  var promise=new Promise(function(resolve,reject){
+      if(true){
+          resolve("I am resolved");
+      }else{
+          reject("it's over");
+      }
+  })
+  promise.then(result=>{
+      
+  }).catch(err=>{
+      
+  })
+})();

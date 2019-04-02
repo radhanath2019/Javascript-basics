@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    
+    <button id="btnClick">click</button>
+    <input type="text" id="textOne"/>
+    <script>
+        var x=document.getElementById('btnClick');
+        var y=document.getElementById('textOne');
+
+        x.addEventListener("click",function(){
+            console.log(this);
+        })
+        y.addEventListener("change",function(){
+            console.log(this);
+        })
+    </script>
+</body>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <script>
+        (function(){
+    'use strict';
+  var promise=new Promise(function(resolve,reject){
+      if(true){
+          resolve("I am resolved");
+      }else{
+          reject("it's over");
+      }
+  })
+  promise.then(result=>{
+      console.log(result);
+  }).catch(err=>{
+      console.log(err);
+  });
+  console.log("----------Look at me ------");
+})();
+        </script>
+</body>
